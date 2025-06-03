@@ -40,6 +40,8 @@ a {
   border-radius: 30px;
   font-weight: 700;
   font-size: 14px;
+  border: 0;
+  cursor: pointer;
 }
 .btn-primary {
   background: white;
@@ -49,12 +51,25 @@ a {
   background: #222;
   color: white;
 }
+.btn-dark{
+  background: #222;
+  color: white;
+}
+.btn-dark:hover{
+  background: white;
+  color: #222;
+  border: 1px solid #222;
+}
 .active {
   background: #444;
 }
 .my-10 {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.my-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 p {
   margin-bottom: 10px;
@@ -128,4 +143,26 @@ p {
 .feature {
   float: left;
   width: 50%;
+}
+/* person */
+.person{
+  height: 400px;
+  background: url(../images/cafe3.jpg) center center/ cover;
+}
+
+/* reservation */
+.reservation{
+  padding: 100px 0;
+  text-align: center;
+}
+
+/* footer */
+footer{
+  background: #222;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+footer p{
+  margin-bottom: 0;
 }
