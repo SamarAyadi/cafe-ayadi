@@ -136,7 +136,8 @@ p {
   text-align: center;
 }
 .vp-content {
-  max-width: 500px;
+  max-width: 600px;
+  padding: 20px;
   padding-top: 150px;
   color: white;
   display: block;
@@ -144,7 +145,7 @@ p {
 }
 
 .vp-content h1 {
-  font-size: 50px;
+  font-size: 3rem;
 }
 .vp-content p {
   font-size: 18px;
@@ -154,11 +155,13 @@ p {
 
 /* features */
 .features {
+  
   overflow: auto;
   padding: 100px 0;
   text-align: center;
 }
 .feature {
+   padding: 20px;
   float: left;
   width: 50%;
 }
@@ -170,7 +173,7 @@ p {
 
 /* reservation */
 .reservation {
-  padding: 100px 0;
+  padding: 100px 20px 100px 20px;
   text-align: center;
 }
 
@@ -207,6 +210,7 @@ footer p {
 
 .contact-form-container {
   max-width: 600px;
+  padding: 20px;
   margin: auto;
 }
 .contact-form-container form label {
